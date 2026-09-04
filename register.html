@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex; justify-content: space-between;">
+    <span><h4>KHARAGPUR<span style="color: red;"> DATA <br>ANALYTICS</span> GROUP </h4></span>
+    <span><h1>👥 🟰</h1></span>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <div class="container">
+        <div class="glowing-box registration-box" style="width: 60vw;">
+        <h1 align="center">
+            <span class="glowtext2" style="color: red; font-size: 60px;">
+                REGISTRATION FORM
+            </span>
+        </h1>
+
+        <form class="registration-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="roll">Roll Number</label>
+            <input type="text" id="roll" name="roll" placeholder="Enter your roll number" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="department">Department</label>
+            <select id="department" name="department" required>
+                <option value="">Select your department</option>
+                <option value="aerospace">Aerospace Engineering</option>
+                <option value="agricultural-food">Agricultural and Food Engineering</option>
+                <option value="architecture">Architecture and Regional Planning</option>
+                <option value="biotechnology">Biotechnology</option>
+                <option value="chemical">Chemical Engineering</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="cse">Computer Science and Engineering</option>
+                <option value="electrical">Electrical Engineering</option>
+                <option value="ece">Electronics and Electrical Communication Engineering</option>
+                <option value="geology">Geology and Geophysics</option>
+                <option value="industrial-systems">Industrial and Systems Engineering</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="metallurgical-materials">Metallurgical and Materials Engineering</option>
+                <option value="mining">Mining Engineering</option>
+                <option value="ocean">Ocean Engineering and Naval Architecture</option>
+                <option value="physics">Physics</option>
+                <option value="humanities">Humanities and Social Sciences</option>
+            </select>
+
+            <button type="submit">SUBMIT</button>
+            <p id="formMessage" role="status"></p>
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
