@@ -36,7 +36,7 @@ The website includes:
 ## Project Structure
 
 ```text
-KDAG-WEB-<roll-no>-<name>/
+KDAG-WEB-26CS10046-Arghyadeep Mallik/
 │
 ├── index.html
 ├── register.html
